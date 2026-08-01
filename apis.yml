@@ -1,8 +1,26 @@
 aid: pricerunner
 name: Pricerunner
-description: 'Pricerunner is a company surfaced as a portfolio company of northzone and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Pricerunner is a product price-comparison platform founded in 1999 and
+  owned by Klarna since 2022 (operated by Klarna Technologies AB). It helps shoppers
+  compare prices and products across thousands of retailers in 13 countries (Sweden,
+  Denmark, the UK, Norway, USA, Germany, Austria, Finland, France, Ireland, Italy,
+  the Netherlands and Spain). Pricerunner markets a product-and-price-data API for
+  retailers and businesses covering product search, competitor analysis, price history
+  and automatic price matching across roughly 126 million daily-updated prices, but
+  access is gated behind a sales contact form, with no public developer documentation,
+  OpenAPI specification, or self-serve onboarding published.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://owp.klarna.com/images/assets/library/illustrations/b2b/signup/pr-emblem.png
 url: https://raw.githubusercontent.com/api-evangelist/pricerunner/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +30,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Consumer
-apis: []
+- Price Comparison
+- E-commerce
+- Shopping
+- Product Data
+- Retail
+- Klarna
+apis:
+- name: Pricerunner API
+  description: 'Product and price data API marketed by Pricerunner for retailers and
+    businesses: product search, competitor analysis, market trend identification,
+    price history and automatic price matching across roughly 126 million daily-updated
+    prices. Access is gated behind a sales contact form; no public developer documentation,
+    OpenAPI specification, endpoints, or authentication details are published.'
+  humanURL: https://www.pricerunner.com/register/api
+  tags:
+  - Product Data
+  - Price Comparison
+  - E-commerce
+  properties:
+  - type: SignUp
+    url: https://www.pricerunner.com/register/api
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -25,3 +63,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.pricerunner.com
+- type: DeveloperPortal
+  url: https://www.pricerunner.com/register/api
+- type: SignUp
+  url: https://www.pricerunner.com/register/merchant
+- type: Support
+  url: https://www.pricerunner.com/info/contact
+- type: PrivacyPolicy
+  url: https://www.pricerunner.com/info/privacy-policy
+- type: TermsOfService
+  url: https://www.pricerunner.com/info/terms
+- type: DomainSecurity
+  url: security/pricerunner-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
