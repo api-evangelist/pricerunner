@@ -35,6 +35,15 @@ tags:
 - Company
 - Consumer
 - Price Comparison
+- E-Commerce
+- Shopping
+- Product Data
+- Retail
+- Klarna
+tags_raw:
+- Company
+- Consumer
+- Price Comparison
 - E-commerce
 - Shopping
 - Product Data
@@ -49,6 +58,10 @@ apis:
     OpenAPI specification, endpoints, or authentication details are published.'
   humanURL: https://www.pricerunner.com/register/api
   tags:
+  - Product Data
+  - Price Comparison
+  - E-Commerce
+  tags_raw:
   - Product Data
   - Price Comparison
   - E-commerce
