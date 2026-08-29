@@ -9,6 +9,17 @@ description: 'Pricerunner is a product price-comparison platform founded in 1999
   and automatic price matching across roughly 126 million daily-updated prices, but
   access is gated behind a sales contact form, with no public developer documentation,
   OpenAPI specification, or self-serve onboarding published.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
