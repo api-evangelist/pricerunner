@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "pricerunner",
+    "captured_at": "2026-10-11T192220",
+    "source_url": "https://www.pricerunner.com/register/api",
+    "source_type": "DeveloperPortal",
+    "file": "pricerunner-2026-10-11T192220.png",
+    "bytes": 193649,
+    "capture": "playwright-local"
+  }
+]
