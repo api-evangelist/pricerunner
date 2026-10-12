@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/pricerunner/integrations
+- https://n8n.io/integrations/pricerunner/
+- https://composio.dev/toolkits/pricerunner
+- https://monid.ai/tools/pricerunner
+checked:
+- https://composio.dev/toolkits/pricerunner
+- https://monid.ai/tools/pricerunner
+- https://n8n.io/integrations/pricerunner/
+- https://zapier.com/apps/pricerunner/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
